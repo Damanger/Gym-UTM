@@ -1,0 +1,40 @@
+.navbar{
+    height: 5rem;
+    background-color: rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(10px);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+#UTM{
+    filter: drop-shadow(-10px 10px 10px black);
+    width: 5rem;
+    height: auto;
+}
+
+#Usuario{
+    width: 3.5rem;
+    height: auto;
+    border-radius: 50%
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    margin-right: 1.5rem;
+}
+
+.options a {
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.options a.active {
+    border-bottom: 0.2rem solid rgb(255, 0, 0);
+    text-decoration: none;
+    padding-bottom: 3px;
+    transition: border-color 1s ease;
+}
